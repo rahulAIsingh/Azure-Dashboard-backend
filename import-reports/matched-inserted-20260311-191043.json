@@ -1,0 +1,2322 @@
+[
+  {
+    "InsertedRowId": "8171c8e9-5ab7-4909-8a23-c36c1a751bc5",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "ai_func-airport-processor-1154_af99f499-f25a-4e1b-a928-879ff516d3ac_managed",
+    "ResourceName": "managed-func-airport-processor-1154-ws",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "b3da9284-c099-4ec2-a8b5-aaee42e90962",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "ai_rule-source-storage-app_1ef6947a-e45a-40e0-ae05-801fd25394a5_managed",
+    "ResourceName": "managed-rule-source-storage-app-ws",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "5d7b094f-741b-45ee-873d-db13c17a9582",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "az-rohit-rg",
+    "ResourceName": "az-rohit-vm-ip",
+    "TotalAmtInr": 246.14040672000002,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Basic IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "e429bc44-20c1-438d-85ea-57e2dc387327",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "az-rohit-rg",
+    "ResourceName": "kavitechtester-vpn",
+    "TotalAmtInr": 2461.4040672000001,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "VPN Gateway",
+      "ServiceName": "VPN Gateway",
+      "ResourcePlan": "Basic Gateway",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "2b79946d-2bd1-4c3f-a302-dac821e36b98",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "az-rohit-rg",
+    "ResourceName": "vpnclientconnection",
+    "TotalAmtInr": 0,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer In",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "88595aeb-d69e-4ecb-b97f-67ff2eea67e6",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "az-rohit-rg",
+    "ResourceName": "az-rohit-vm",
+    "TotalAmtInr": 13052.697979490539023,
+    "LineItemCount": 12,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Bandwidth Inter-Region",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Inter Continent Data Transfer Out - ASIA To Any",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "e4d9c679-f7d9-436e-b3bb-406a53abc9d1",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "AZ-Rohit-VM_OsDisk_1_d4292534a7554b8dac3862456b5b484f",
+    "TotalAmtInr": 2678.624421517779339,
+    "LineItemCount": 3,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Standard HDD Managed Disks",
+      "ServiceName": "Storage",
+      "ResourcePlan": "S20 LRS Disk",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "b3ce7fad-691a-4ea0-91d8-87a5276d4936",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "kavidatabackup",
+    "TotalAmtInr": 1043.5719296636027595009,
+    "LineItemCount": 5,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob v2 Hierarchical Namespace",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Hot LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "7f6180da-0f01-4edc-9d28-7a1eea88c3d1",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "KaviVmHDDBackup",
+    "TotalAmtInr": 3545.8592684995296,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Backup",
+      "ServiceName": "Backup",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "3c32e96c-013c-4515-8108-8c0b0a86a1a5",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "rhdisk",
+    "TotalAmtInr": 1323.725936097451113,
+    "LineItemCount": 3,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Standard HDD Managed Disks",
+      "ServiceName": "Storage",
+      "ResourcePlan": "S4 LRS Disk Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "261747d5-8411-4493-862b-d5b3b400956b",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "cebu_staging_prs",
+    "ResourceName": "site availability-cebuwebappstaging",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "0612ee12-6f0a-4bdc-af30-9d388dceed83",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "cebu_staging_prs",
+    "ResourceName": "cebuwebappstaging",
+    "TotalAmtInr": 2666.5210728000002,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "bf0d1fca-4ddd-434e-8e33-fac15c0bda5c",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "defaultresourcegroup-cid",
+    "ResourceName": "defaultworkspace-2531d5a7-62b5-4134-a656-623d3d304a15-cid",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "af4b2e08-19a2-447f-9974-749c25467f6a",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "defaultresourcegroup-eus",
+    "ResourceName": "defaultworkspace-2531d5a7-62b5-4134-a656-623d3d304a15-eus",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "1cd333ee-1899-48ed-8dc5-e97dfed6acc6",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "defaultresourcegroup-sea",
+    "ResourceName": "defaultworkspace-2531d5a7-62b5-4134-a656-623d3d304a15-sea",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "f68f6eaa-9f5f-4c5b-8eea-36f17272688f",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Dev_TravelDoc",
+    "ResourceName": "traveldocdev",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Read Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "canadacentral"
+    }
+  },
+  {
+    "InsertedRowId": "6457a788-a7bb-4458-99f1-54058b43888e",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech_prod",
+    "ResourceName": "kaviprodvm-ip",
+    "TotalAmtInr": 341.86167600000005,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "ddcce4f6-58ff-4f07-b3a2-09308bee6e88",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech_prod",
+    "ResourceName": "kytelmstriggerbased",
+    "TotalAmtInr": 0,
+    "LineItemCount": 3,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Functions",
+      "ServiceName": "Functions",
+      "ResourcePlan": "Standard Execution Time",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "8a4c0dad-4aa3-4b18-b60f-f5ef1cfb72b4",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech_prod",
+    "ResourceName": "kyteprstriggerbased",
+    "TotalAmtInr": 0,
+    "LineItemCount": 3,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Functions",
+      "ServiceName": "Functions",
+      "ResourcePlan": "Standard Execution Time",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "258882c3-54ee-466b-9de6-7255bbb16ad8",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "Kavitech-Email-Group",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Emails",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus2"
+    }
+  },
+  {
+    "InsertedRowId": "520c4548-a49e-45d5-a9d0-8d34fcfd016d",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "kyteLmsDB",
+    "TotalAmtInr": 458.66441496484151,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "SQL Database Single Basic",
+      "ServiceName": "SQL Database",
+      "ResourcePlan": "B DTU",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "3340ad9f-84c3-4e5d-bb1c-261539e575af",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "PaxReconSystem",
+    "TotalAmtInr": 458.66441496484151,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "SQL Database Single Basic",
+      "ServiceName": "SQL Database",
+      "ResourcePlan": "B DTU",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "acccb0a0-3e70-4c1a-9a94-229dc4019f2e",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "prodfunctionapplmsprs",
+    "TotalAmtInr": 36.96336694179480201279,
+    "LineItemCount": 13,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Protocol Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "040e214c-0a72-41ed-a5dc-89d3a7630cee",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "UNICLOUD-GROUP",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Emails",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "westus2"
+    }
+  },
+  {
+    "InsertedRowId": "8e941317-8779-4720-8cec-44b6529807bc",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH_PROD",
+    "ResourceName": "ProdVMkavi",
+    "TotalAmtInr": 1098.4131064675521389,
+    "LineItemCount": 12,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "SQL Server Express Edition",
+      "ServiceName": "Virtual Machines Licenses",
+      "ResourcePlan": "Express License",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "40669bd4-e9b3-4795-a6c3-0a0299cbf0d9",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH_PROD",
+    "ResourceName": "ProdVMkavi_OsDisk_1_0df04201ab754d3586e5091acd07dfe4",
+    "TotalAmtInr": 1201.49695163599972,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Standard SSD Managed Disks",
+      "ServiceName": "Storage",
+      "ResourcePlan": "E4 LRS Disk Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "00196cb5-ead7-4248-b80f-62f8e8925a16",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH_PROD",
+    "ResourceName": "prodvmkavihdd",
+    "TotalAmtInr": 1385.92270577745967,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Standard SSD Managed Disks",
+      "ServiceName": "Storage",
+      "ResourcePlan": "E10 LRS Disk",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "a82607cb-3709-4a20-82c2-52f6b180dd34",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "adfsapi",
+    "TotalAmtInr": 0,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralus"
+    }
+  },
+  {
+    "InsertedRowId": "28393044-f3cb-4e9b-bee6-3afda5a6fe22",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiaprstriggerbaseddev",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "30dbf623-a82b-48bd-be4c-df132ce305d0",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiaprswebportalapiqa",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "b4329e63-6d3c-464e-8a2c-b7e43ce67c7a",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiaprswebportalqa",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "4cf1bf21-6a8e-4b90-b4c0-2e27b676054f",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiawebservices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "c7fe5438-611f-4408-a264-53aa0b1c3987",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "akasabmsscheduler",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "c22a7f1d-97d3-4101-b474-21419212afd5",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "akasabmsservices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "50c866ad-0be8-4a73-8d84-646d85cd392f",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "apphealthcheckup",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "7d9f14f3-8387-4cfa-b2e2-aead1c816b10",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "basic-test-plan",
+    "TotalAmtInr": 5127.9251400000003,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Basic Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "B1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "ac9498d1-6671-46b9-afa2-a85e26408560",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "brswebservice",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "211981c1-1293-4e1e-ab0c-f834ae62685c",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "btscebudevservice",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "fc07e42f-cce5-4e20-b873-160e0ae844d0",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "btscebustagingservice",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "7b80ac06-5734-494e-ac6d-dec9ab07e920",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "btsfunctionappprod",
+    "TotalAmtInr": 0,
+    "LineItemCount": 4,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Functions",
+      "ServiceName": "Functions",
+      "ResourcePlan": "Standard Execution Time",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralus"
+    }
+  },
+  {
+    "InsertedRowId": "fe2277c7-e8c8-423f-a3fa-aa1dbdd86385",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cbtsapidev",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "4d35a5af-5008-4c10-9fa8-ad7b26355f9a",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cbtsdev",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "b9d7cc71-f33c-49af-bef2-d0a5f8ccc58d",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebubtswebappdev",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "0a9dcd6d-ff3a-4482-8352-fc9f04ec60db",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebustagingprs",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Functions",
+      "ServiceName": "Functions",
+      "ResourcePlan": "Standard Total Executions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "fb057c65-41a5-4253-8823-255e1378f48f",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebustagingprswebapp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "ff037a8f-b852-49db-b5aa-670807a964f2",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebustagingprswebservices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "b6fe48d5-13a4-4193-b49f-88cad76d8f5b",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebuwebappstaging",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "203c1436-1eda-403d-af9e-5e66a930d40d",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "creation_acgp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Emails",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "westus2"
+    }
+  },
+  {
+    "InsertedRowId": "4a145923-ebe0-4535-a3ce-5f1edcc4c966",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "dcsamadeuswebservices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "6a93bbc5-ef34-43d3-b1e5-eb5e7fe064bf",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "devkytebmscebumis",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "0e2524dc-9e77-4173-8428-b67cf24ee658",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "ereadbacktestingapp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "2f5815ac-9673-4b48-8f00-784b033f2db9",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "gnslmcrcapi",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Functions",
+      "ServiceName": "Functions",
+      "ResourcePlan": "Standard Execution Time",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "416a45aa-a2c0-4d7d-8c68-d41b1ee45aa1",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "indigocentral-v2-1",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "47d8eb03-5712-4181-98d9-bee46b8f64a2",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "indigocentral-v2-2",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "95b88cd1-d3ba-4689-85a1-2ee5c22906a4",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytelmswebportalqa",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "cda5728c-9430-40b6-83c0-eea5dd7258e9",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytelmswebservicesqa",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "721bfd2a-be3a-4a25-828e-84f9e17346fc",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kyteprsloadtesting",
+    "TotalAmtInr": 5127.9251400000003,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Basic Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "B1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "383a5a12-3373-424d-8f2b-40ab03e22cc0",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kyteprswebportalqa",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "5b506bc7-30e8-422a-9c64-84e5371e888c",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kyteprswebservicesqa",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "798a89c4-bda9-43cf-b5c4-d606cccd71ad",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytewebportal",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "bdfcf01e-fb35-4611-acea-137aef4b1c9f",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytewebservices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "41b0cce5-325f-4c26-9f23-779766094bc9",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "loadtesingvm-ip",
+    "TotalAmtInr": 341.86167600000005,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "a86e2d2e-567a-4366-88b9-5dc5d2100368",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "pitstopreactjsnew",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "5fcf9f5a-3475-40ff-8384-c867d7094574",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "printermanagementportaladmin",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "9534c16e-8a81-4936-9be9-8a8399d497b6",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "printermanagementportalclient",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "ccad85b3-377d-4c55-ae4c-023e8345757c",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "printermanagementservices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "43b302e6-37ff-4d2e-989a-180bc1b05ed5",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "prswebservicesstaging",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "e65a78c9-e776-4a82-95fc-c1afb500630b",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "ptjascontrolcenterapi",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "58d77f43-6dc4-414e-855e-ed7062447842",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "ptjasrmsschedulingclient",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "7b44286c-41c2-40ce-bf81-5aa261d582ff",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "pythonappplan",
+    "TotalAmtInr": 1230.7020336,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Basic Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "B1",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "7422cef0-4ff9-4d13-beda-5f96085afdf5",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "pythonservicedimension",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "37ac6343-9942-44b1-ab5f-aecda0318877",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "smartappmanila",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "773dea88-6946-4fa4-91f7-b12332b43bf7",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "stagingbtswebservice",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "4088f0e5-a2b2-4dc4-a1fb-eb1507111d38",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "stagingcebuwebapp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "35a8840f-ecfa-4a7c-8a5f-e34c64d8d418",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "testvistaraencryption",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "7789b68f-103a-47d4-9b6c-4eec2db39581",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "visaocr",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "9aefddb4-9d0c-4286-b4ca-0e1e04585646",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "vistaracrewrestservice",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "9c02fff0-2f02-4a8f-b4f3-46f7b211edd5",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "vmsbottesting",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "889aefed-f086-4a6c-a8e9-1a4ed881fb51",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "webconfigtestdev",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "48970153-4a9f-49a6-b452-b08635db5c83",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "AirIndiaPrsDB",
+    "TotalAmtInr": 1378.5572074645247,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "SQL Database Single Standard",
+      "ServiceName": "SQL Database",
+      "ResourcePlan": "S0 DTUs",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "9ab58c75-85b9-4db7-8f87-9f52db137519",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "gnslmcrcnotificationhub",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Notification Hubs",
+      "ServiceName": "Notification Hubs",
+      "ResourcePlan": "Free Unit",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "cecfbd58-86e0-4fbb-8a08-c31cab03b1ea",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "gnslmcsignalr",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "SignalR",
+      "ServiceName": "SignalR",
+      "ResourcePlan": "Standard Unit - Free",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "ba3f7d9b-fd7a-4173-b95a-b8821a467bbe",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "storageaccountkavit84fd",
+    "TotalAmtInr": 27.99505650736860100001,
+    "LineItemCount": 7,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Write Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralus"
+    }
+  },
+  {
+    "InsertedRowId": "360a5899-67e5-4c92-9e20-8bcfaa7e6633",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "storageaccountkavit8cc4",
+    "TotalAmtInr": 83.4917961297771027118,
+    "LineItemCount": 13,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Read Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "b77b801f-1e98-48a2-89b3-de1d4d0aa769",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "storageaccountkavitb40e",
+    "TotalAmtInr": 36.23951564571000266,
+    "LineItemCount": 10,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS List and Create Container Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "aa457cac-eadd-4d40-b8fb-296e7f4abaf4",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEV",
+    "ResourceName": "LoadtesingVM_OsDisk_1_24ac07d605d14339a9eb89959f438a18",
+    "TotalAmtInr": 595.16881575455,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Standard HDD Managed Disks",
+      "ServiceName": "Storage",
+      "ResourcePlan": "S10 LRS Disk",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "84581b86-0568-4d2c-8f74-4194b150e91e",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "akasaloadtrimdev",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "a592e9eb-a72e-4b58-94a5-227286be0723",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "applictioninsighttesting",
+    "TotalAmtInr": 0,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "7471ae93-b0a5-4b3e-bbd1-077a3e096aa1",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "dbprivateendpoint",
+    "TotalAmtInr": 683.72335200000009,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Virtual Network Private Link",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard Private Endpoint",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "f41bc4d4-9485-4837-b83f-e863609a70ea",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "devkytebrsv2scheduledjob",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "ecdb3b17-7993-4596-8abe-90c64b094f7d",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "gnslmcwebservice",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "d0e56cdf-267a-458a-b27e-a613e9112a1a",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "gnslmcwithoutsms",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "d648187a-4ddd-4301-894d-d31ec2858e9a",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "imageprocessingvm-ip",
+    "TotalAmtInr": 341.86167600000005,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "481de7f4-892d-4728-a31f-01e2050cfde4",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "indigocentral-v2-3",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "1daa711f-c90c-450b-b190-e4716898ab56",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "smsbagfunctionapptest",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "60aebb9e-bd56-45a1-ade0-51a350f13fcb",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "testfunctionappforlogicapp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "8a38f5db-387e-490a-b898-002dafe1f2c2",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "cebutestingencryption",
+    "TotalAmtInr": 0.00027569490000000003,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Key Vault",
+      "ServiceName": "Key Vault",
+      "ResourcePlan": "Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "dbb69939-ade0-414a-94c2-5413a95a8de2",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "kavitechdevtestinfrb1bc",
+    "TotalAmtInr": 12.712543824138602536,
+    "LineItemCount": 7,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Queues",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Class 2 Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "f9638b31-7f8c-4671-9016-27ed24005d63",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "storageaccountkavit809d",
+    "TotalAmtInr": 21.529416704164202002996,
+    "LineItemCount": 13,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Read Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "57921389-c444-452e-92b4-3f8a8ad45058",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "storageaccountkavit8db6",
+    "TotalAmtInr": 0.19280998526400001,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "cee5cba0-47ca-4470-995f-c138448f43f4",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "storageaccountkavit9133",
+    "TotalAmtInr": 15.612292747044241551,
+    "LineItemCount": 9,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "5c7ab6b2-3143-4dbd-9517-0bafd3405f30",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "wfsOcrServices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Vision",
+      "ServiceName": "Foundry Tools",
+      "ResourcePlan": "Free Transactions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralus"
+    }
+  },
+  {
+    "InsertedRowId": "dba0ebcb-662a-4bef-8300-994e16ad6323",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEVTEST-INFRA",
+    "ResourceName": "ImageAIOSdisk",
+    "TotalAmtInr": 1040.9573160893037,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Standard HDD Managed Disks",
+      "ServiceName": "Storage",
+      "ResourcePlan": "S15 LRS Disk",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "ce006c52-970b-4264-8a33-306b3c8a28e4",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEVTEST-INFRA",
+    "ResourceName": "ImageVMDisk",
+    "TotalAmtInr": 580.76487103908005,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Standard HDD Managed Disks",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Snapshots LRS Snapshots",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "01e0d90e-9621-4745-9b84-f2bb9ad3c3bf",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEVTEST-INFRA",
+    "ResourceName": "PROCESSONEDRIVEFILES",
+    "TotalAmtInr": 106.7263685253227391,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Logic Apps",
+      "ServiceName": "Logic Apps",
+      "ResourcePlan": "Consumption Standard Connector Actions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "9ce3be74-4dfe-4c40-9877-2cf820e58bf3",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "microservicesarchitec",
+    "ResourceName": "microservicesftp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "06042b0d-1ac3-48c9-aaa5-6efead503287",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "microservicesarchitec",
+    "ResourceName": "microservicesmq",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "695ee317-8984-4fa2-9d8d-d0c71cbdf249",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "MicroservicesArchitec",
+    "ResourceName": "microservicesarchit9f1a",
+    "TotalAmtInr": 14.673044995596001003,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "c3c5f347-11d9-4ed5-8379-6846078fedf0",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "MicroservicesArchitec",
+    "ResourceName": "microservicesarchitac2d",
+    "TotalAmtInr": 0.91892418508799997,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Tables",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "d3d5e9af-51b9-4a66-9591-6299732f94ab",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "MicroservicesArchitec",
+    "ResourceName": "MicroServicesServiceBUs",
+    "TotalAmtInr": 2.3554820866199999,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Service Bus",
+      "ServiceName": "Service Bus",
+      "ResourcePlan": "Basic Messaging Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "36fe03b6-0db3-48e1-860d-1b1f8c66c91c",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "2531d5a7-62b5-4134-a656-623d3d304a15-travel-eligibility-v-cid",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "2faac092-68e4-4e36-b575-223825f2ffcf",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "aivalllmapi",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "uksouth"
+    }
+  },
+  {
+    "InsertedRowId": "574765ea-9eac-47a4-ae80-921d4e39cc8d",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "asp-kbforimmegration",
+    "TotalAmtInr": 4201.4628341945099,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Basic Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "B3",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "swedencentral"
+    }
+  },
+  {
+    "InsertedRowId": "4bc4c69e-5692-494e-a26e-bc4b3c15cd0b",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "func-airport-processor-1154",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "bfbd2c81-7252-4dfc-9579-be1b8803f240",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "kbforimmegration",
+    "TotalAmtInr": 0,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "swedencentral"
+    }
+  },
+  {
+    "InsertedRowId": "c6de2c14-7455-425b-85a0-2df409cafdbd",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "powerappusr",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "b6d88628-4ea3-4a5d-8379-370053c1d99b",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "rule-source-storage-app",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "eb590a34-82b7-41f2-b983-5ca81907698d",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "rulesources",
+    "TotalAmtInr": 6905.60584715619766,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure AI Search",
+      "ServiceName": "Azure Cognitive Search",
+      "ResourcePlan": "Basic Unit",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "swedencentral"
+    }
+  },
+  {
+    "InsertedRowId": "7d573cf9-ea31-49ec-955b-0480a76c4426",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "rulesvalidateapp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "6f37f655-9bdb-4dcc-8d5e-ab06f89fa45d",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "urlcurator-plan",
+    "TotalAmtInr": 1.5893805471102003,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Basic Plan - Linux",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "B1",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "3658e135-b130-4cd2-b762-23130a7bfebd",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aidoccosmopaxtxndb",
+    "TotalAmtInr": 0.0093366962955045377,
+    "LineItemCount": 4,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Cosmos DB",
+      "ServiceName": "Azure Cosmos DB",
+      "ResourcePlan": "Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "3417321b-2c6d-4445-8720-f5b5563a91d1",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aidoccosmosdb",
+    "TotalAmtInr": 1.209050048836906703269,
+    "LineItemCount": 15,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Cosmos DB",
+      "ServiceName": "Azure Cosmos DB",
+      "ResourcePlan": "Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "e7eda04c-6249-4825-a30a-d8c9cde1bea6",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aidoccosmotxndb",
+    "TotalAmtInr": 1.6816672445025744,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Cosmos DB",
+      "ServiceName": "Azure Cosmos DB",
+      "ResourcePlan": "Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "ukwest"
+    }
+  },
+  {
+    "InsertedRowId": "50bebb81-51f5-4852-beef-d87eeece0959",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aivalsbustxndb",
+    "TotalAmtInr": 0.57785191548500003,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Service Bus",
+      "ServiceName": "Service Bus",
+      "ResourcePlan": "Basic Messaging Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "northeurope"
+    }
+  },
+  {
+    "InsertedRowId": "d7d0f08f-9969-49a8-a7fc-c6c261d5f4b9",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aivaltxnpaxlogsqldb",
+    "TotalAmtInr": 542.52517336749403,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "SQL Database Single/Elastic Pool General Purpose - Storage",
+      "ServiceName": "SQL Database",
+      "ResourcePlan": "General Purpose Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "415a99e8-7553-4ec6-9666-864c2e117c0a",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "BingSearch",
+    "TotalAmtInr": 14.152338189415477,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Grounding with Bing",
+      "ServiceName": "MS Bing Services",
+      "ResourcePlan": "Search Transactions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "b618d4d3-fba4-4ec4-b571-65111a61fff0",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "ruleengineaihub001",
+    "TotalAmtInr": 398.03090725608082064,
+    "LineItemCount": 18,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure OpenAI",
+      "ServiceName": "Foundry Models",
+      "ResourcePlan": "gpt 4o 1120 Outp glbl Tokens",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "swedencentral"
+    }
+  },
+  {
+    "InsertedRowId": "13a6409a-0427-49a5-adf0-8e2feca48d70",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "ruleengineaihub001@ruleengineaiprj001@AML",
+    "TotalAmtInr": 3510.039026806000015,
+    "LineItemCount": 4,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Observability",
+      "ServiceName": "Foundry Tools",
+      "ResourcePlan": "Evaluations input tokens Tokens",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "swedencentral"
+    }
+  },
+  {
+    "InsertedRowId": "7530ea42-e675-48ad-9bf7-6e1bb45f5510",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "rulesvalidateappdev",
+    "TotalAmtInr": 2.0965240726092001403639,
+    "LineItemCount": 11,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "7b560f85-5871-42e3-b2b2-f4148c2db6fc",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "stairportprocessor3416",
+    "TotalAmtInr": 0.1230187403120000132,
+    "LineItemCount": 3,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Blob Storage",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Hot LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "226251f3-cea5-401e-9fb5-466a9b60e7ca",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "stgehandler",
+    "TotalAmtInr": 0.414142997288800041042,
+    "LineItemCount": 9,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Blob Storage",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Hot LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "118d764a-cf79-4860-9278-5241ac97cec0",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityve8a1e",
+    "TotalAmtInr": 0.12635207544960003,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "f2833c4f-c838-4e9e-beec-0d64c15d2481",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityve9556",
+    "TotalAmtInr": 0.021660355791360004,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "6d825bbc-cb0c-438f-870a-98db500f05c3",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityve9f0f",
+    "TotalAmtInr": 0.027567725552640004,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Blob Storage",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Hot LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "uksouth"
+    }
+  },
+  {
+    "InsertedRowId": "45d51462-0012-4569-8afe-99516af38b84",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityveace6",
+    "TotalAmtInr": 1.293443024772600034,
+    "LineItemCount": 4,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Protocol Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "e4ce31a5-0174-41e2-9abf-59a7fbd34cf0",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityveb0e7",
+    "TotalAmtInr": 0.034295563336320008,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "f7f78b04-78fc-49de-b7b6-18dc3428df5c",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityvebcb1",
+    "TotalAmtInr": 0.021660355791360004,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "General Block Blob",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "e6707b65-c2c2-407e-98d4-7dfe332dd6c5",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "urlcurator-scraper",
+    "TotalAmtInr": 2534.34470534991164,
+    "LineItemCount": 3,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Container Instances",
+      "ServiceName": "Container Instances",
+      "ResourcePlan": "Standard vCPU Duration",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "53e6d9ea-59d8-4665-bbbc-3f2ba4cb5858",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "urlcuratoracr",
+    "TotalAmtInr": 356.29136965285687,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Container Registry",
+      "ServiceName": "Container Registry",
+      "ResourcePlan": "Basic Registry Unit",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastus"
+    }
+  },
+  {
+    "InsertedRowId": "d9edc3f2-ca83-41c1-a333-2c4fcada0c91",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "HTTPTRIGGERAGENTICAPP",
+    "TotalAmtInr": 184.87788634713141877,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Logic Apps",
+      "ServiceName": "Logic Apps",
+      "ResourcePlan": "Consumption Standard Connector Actions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "eastasia"
+    }
+  },
+  {
+    "InsertedRowId": "4b32739c-4ceb-49bc-8afc-81b49c08ea64",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "REPORTLOG",
+    "TotalAmtInr": 177.92641663273673792,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Logic Apps",
+      "ServiceName": "Logic Apps",
+      "ResourcePlan": "Consumption Data Retention",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "362f87eb-f8ef-459c-a0e4-4535c418e22c",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "RULESINJESTORAGENT",
+    "TotalAmtInr": 0.0283882542244123987,
+    "LineItemCount": 3,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Logic Apps",
+      "ServiceName": "Logic Apps",
+      "ResourcePlan": "Consumption Standard Connector Actions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "westindia"
+    }
+  },
+  {
+    "InsertedRowId": "60c8fe45-3ba3-4651-a8b6-6f54c547588f",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "RULESOURCEDBPOPULATOR",
+    "TotalAmtInr": 0.0014347901444265432,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Logic Apps",
+      "ServiceName": "Logic Apps",
+      "ResourcePlan": "Consumption Built-in Actions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "swedencentral"
+    }
+  },
+  {
+    "InsertedRowId": "7b06ce9c-a46d-4e02-aebd-7eb1d1fe1143",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "TXNDBLOG",
+    "TotalAmtInr": 184.54610086758366148,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Logic Apps",
+      "ServiceName": "Logic Apps",
+      "ResourcePlan": "Consumption Standard Connector Actions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southindia"
+    }
+  },
+  {
+    "InsertedRowId": "fc47e4ee-151a-45ef-87b7-be255559c41f",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "TXNPAXDBLOG",
+    "TotalAmtInr": 184.56126052951398231,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Logic Apps",
+      "ServiceName": "Logic Apps",
+      "ResourcePlan": "Consumption Data Retention",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southindia"
+    }
+  }
+]

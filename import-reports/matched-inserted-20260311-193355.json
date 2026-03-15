@@ -1,0 +1,18 @@
+[
+  {
+    "InsertedRowId": "e1e67759-0126-4776-8ad8-71318c572120",
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "",
+    "ResourceName": "kavitech",
+    "TotalAmtInr": 16909.2871874045299,
+    "LineItemCount": 2,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Repos and Boards (Basic)",
+      "ServiceName": "Azure DevOps",
+      "ResourcePlan": "Basic User",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southindia"
+    }
+  }
+]

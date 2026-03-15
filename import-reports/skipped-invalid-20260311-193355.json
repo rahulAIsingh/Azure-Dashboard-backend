@@ -1,0 +1,1162 @@
+[
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "ai_func-airport-processor-1154_af99f499-f25a-4e1b-a928-879ff516d3ac_managed",
+    "ResourceName": "managed-func-airport-processor-1154-ws",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "ai_rule-source-storage-app_1ef6947a-e45a-40e0-ae05-801fd25394a5_managed",
+    "ResourceName": "managed-rule-source-storage-app-ws",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "az-rohit-rg",
+    "ResourceName": "az-rohit-vm-ip",
+    "AmtInr": "246.14040672000002",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "az-rohit-rg",
+    "ResourceName": "kavitechtester-vpn",
+    "AmtInr": "2461.4040672000001",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "az-rohit-rg",
+    "ResourceName": "vpnclientconnection",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "AZ-Rohit-VM",
+    "AmtInr": "13052.697979490539023",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "AZ-Rohit-VM_OsDisk_1_d4292534a7554b8dac3862456b5b484f",
+    "AmtInr": "2678.624421517779339",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "kavidatabackup",
+    "AmtInr": "1043.5719296636027595009",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "KaviVmHDDBackup",
+    "AmtInr": "3545.8592684995296",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "AZ-ROHIT-RG",
+    "ResourceName": "rhdisk",
+    "AmtInr": "1323.725936097451113",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "cebu_staging_prs",
+    "ResourceName": "site availability-cebuwebappstaging",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Cebu_Staging_PRS",
+    "ResourceName": "CebuwebappStaging",
+    "AmtInr": "2666.5210728000002",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "defaultresourcegroup-cid",
+    "ResourceName": "defaultworkspace-2531d5a7-62b5-4134-a656-623d3d304a15-cid",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "defaultresourcegroup-eus",
+    "ResourceName": "defaultworkspace-2531d5a7-62b5-4134-a656-623d3d304a15-eus",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "defaultresourcegroup-sea",
+    "ResourceName": "defaultworkspace-2531d5a7-62b5-4134-a656-623d3d304a15-sea",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "dev_traveldoc",
+    "ResourceName": "traveldocdev",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech_prod",
+    "ResourceName": "kaviprodvm-ip",
+    "AmtInr": "341.86167600000005",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech_prod",
+    "ResourceName": "kytelmstriggerbased",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech_prod",
+    "ResourceName": "kyteprstriggerbased",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "Kavitech-Email-Group",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "kyteLmsDB",
+    "AmtInr": "458.66441496484151",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "PaxReconSystem",
+    "AmtInr": "458.66441496484151",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "prodfunctionapplmsprs",
+    "AmtInr": "36.96336694179480201279",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech_Prod",
+    "ResourceName": "UNICLOUD-GROUP",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH_PROD",
+    "ResourceName": "ProdVMkavi",
+    "AmtInr": "1098.4131064675521389",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH_PROD",
+    "ResourceName": "ProdVMkavi_OsDisk_1_0df04201ab754d3586e5091acd07dfe4",
+    "AmtInr": "1201.49695163599972",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH_PROD",
+    "ResourceName": "prodvmkavihdd",
+    "AmtInr": "1385.92270577745967",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "adfsapi",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiaprstriggerbaseddev",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiaprswebportalapiqa",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiaprswebportalqa",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "airindiawebservices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "akasabmsscheduler",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "akasabmsservices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "apphealthcheckup",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "basic-test-plan",
+    "AmtInr": "5127.9251400000003",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "brswebservice",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "btscebudevservice",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "btscebustagingservice",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "btsfunctionappprod",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cbtsapidev",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cbtsdev",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebubtswebappdev",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebustagingprs",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebustagingprswebapp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebustagingprswebservices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "cebuwebappstaging",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "creation_acgp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "dcsamadeuswebservices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "devkytebmscebumis",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "ereadbacktestingapp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "gnslmcrcapi",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "indigocentral-v2-1",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "indigocentral-v2-2",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytelmswebportalqa",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytelmswebservicesqa",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kyteprsloadtesting",
+    "AmtInr": "5127.9251400000003",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kyteprswebportalqa",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kyteprswebservicesqa",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytewebportal",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "kytewebservices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "loadtesingvm-ip",
+    "AmtInr": "341.86167600000005",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "pitstopreactjsnew",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "printermanagementportaladmin",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "printermanagementportalclient",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "printermanagementservices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "prswebservicesstaging",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "ptjascontrolcenterapi",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "ptjasrmsschedulingclient",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "pythonappplan",
+    "AmtInr": "1230.7020336",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "pythonservicedimension",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "smartappmanila",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "stagingbtswebservice",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "stagingcebuwebapp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "testvistaraencryption",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "visaocr",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "vistaracrewrestservice",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "vmsbottesting",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-dev",
+    "ResourceName": "webconfigtestdev",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "AirIndiaPrsDB",
+    "AmtInr": "1378.5572074645247",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "gnslmcrcnotificationhub",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "gnslmcsignalr",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "storageaccountkavit84fd",
+    "AmtInr": "27.99505650736860100001",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "storageaccountkavit8cc4",
+    "AmtInr": "83.4917961297771027118",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KaviTech-Dev",
+    "ResourceName": "storageaccountkavitb40e",
+    "AmtInr": "36.23951564571000266",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEV",
+    "ResourceName": "LoadtesingVM_OsDisk_1_24ac07d605d14339a9eb89959f438a18",
+    "AmtInr": "595.16881575455",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "akasaloadtrimdev",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "applictioninsighttesting",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "dbprivateendpoint",
+    "AmtInr": "683.72335200000009",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "devkytebrsv2scheduledjob",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "gnslmcwebservice",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "gnslmcwithoutsms",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "imageprocessingvm-ip",
+    "AmtInr": "341.86167600000005",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "indigocentral-v2-3",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "smsbagfunctionapptest",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "kavitech-devtest-infra",
+    "ResourceName": "testfunctionappforlogicapp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "cebutestingencryption",
+    "AmtInr": "0.00027569490000000003",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "kavitechdevtestinfrb1bc",
+    "AmtInr": "12.712543824138602536",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "storageaccountkavit809d",
+    "AmtInr": "21.529416704164202002996",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "storageaccountkavit8db6",
+    "AmtInr": "0.19280998526400001",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "storageaccountkavit9133",
+    "AmtInr": "15.612292747044241551",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Kavitech-DevTest-infra",
+    "ResourceName": "wfsOcrServices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEVTEST-INFRA",
+    "ResourceName": "ImageAIOSdisk",
+    "AmtInr": "1040.9573160893037",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEVTEST-INFRA",
+    "ResourceName": "ImageVMDisk",
+    "AmtInr": "580.76487103908005",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "KAVITECH-DEVTEST-INFRA",
+    "ResourceName": "PROCESSONEDRIVEFILES",
+    "AmtInr": "106.7263685253227391",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "microservicesarchitec",
+    "ResourceName": "microservicesftp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "microservicesarchitec",
+    "ResourceName": "microservicesmq",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "MicroservicesArchitec",
+    "ResourceName": "microservicesarchit9f1a",
+    "AmtInr": "14.673044995596001003",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "MicroservicesArchitec",
+    "ResourceName": "microservicesarchitac2d",
+    "AmtInr": "0.91892418508799997",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "MicroservicesArchitec",
+    "ResourceName": "MicroServicesServiceBUs",
+    "AmtInr": "2.3554820866199999",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "2531d5a7-62b5-4134-a656-623d3d304a15-travel-eligibility-v-cid",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "aivalllmapi",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "asp-kbforimmegration",
+    "AmtInr": "4201.4628341945099",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "func-airport-processor-1154",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "kbforimmegration",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "powerappusr",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "rule-source-storage-app",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "rulesources",
+    "AmtInr": "6905.60584715619766",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "rulesvalidateapp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "travel_eligibility_verification_ai_solution",
+    "ResourceName": "urlcurator-plan",
+    "AmtInr": "1.5893805471102003",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aidoccosmopaxtxndb",
+    "AmtInr": "0.0093366962955045377",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aidoccosmosdb",
+    "AmtInr": "1.209050048836906703269",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aidoccosmotxndb",
+    "AmtInr": "1.6816672445025744",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aivalsbustxndb",
+    "AmtInr": "0.57785191548500003",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "aivaltxnpaxlogsqldb",
+    "AmtInr": "542.52517336749403",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "BingSearch",
+    "AmtInr": "14.152338189415477",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "ruleengineaihub001",
+    "AmtInr": "398.03090725608082064",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "ruleengineaihub001@ruleengineaiprj001@AML",
+    "AmtInr": "3510.039026806000015",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "rulesvalidateappdev",
+    "AmtInr": "2.0965240726092001403639",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "stairportprocessor3416",
+    "AmtInr": "0.1230187403120000132",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "stgehandler",
+    "AmtInr": "0.414142997288800041042",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityve8a1e",
+    "AmtInr": "0.12635207544960003",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityve9556",
+    "AmtInr": "0.021660355791360004",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityve9f0f",
+    "AmtInr": "0.027567725552640004",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityveace6",
+    "AmtInr": "1.293443024772600034",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityveb0e7",
+    "AmtInr": "0.034295563336320008",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "traveleligibilityvebcb1",
+    "AmtInr": "0.021660355791360004",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "urlcurator-scraper",
+    "AmtInr": "2534.34470534991164",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "Travel_Eligibility_Verification_AI_Solution",
+    "ResourceName": "urlcuratoracr",
+    "AmtInr": "356.29136965285687",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "HTTPTRIGGERAGENTICAPP",
+    "AmtInr": "184.87788634713141877",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "REPORTLOG",
+    "AmtInr": "177.92641663273673792",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "RULESINJESTORAGENT",
+    "AmtInr": "0.0283882542244123987",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "RULESOURCEDBPOPULATOR",
+    "AmtInr": "0.0014347901444265432",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "TXNDBLOG",
+    "AmtInr": "184.54610086758366148",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "TRAVEL_ELIGIBILITY_VERIFICATION_AI_SOLUTION",
+    "ResourceName": "TXNPAXDBLOG",
+    "AmtInr": "184.56126052951398231",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  }
+]

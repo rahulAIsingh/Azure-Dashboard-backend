@@ -1,0 +1,13 @@
+{
+  "WorkbookPath": "d:\\sample data.xlsx",
+  "SubscriptionName": "kavitech-Dev/Test",
+  "EffectiveUsageDate": "2026-01-31",
+  "Currency": "INR",
+  "TotalExcelRowsRead": 331,
+  "EligibleChargeRows": 329,
+  "DistinctAggregatedResources": 145,
+  "MatchedResourcesInserted": 145,
+  "UnmatchedResources": 0,
+  "SkippedRows": 2,
+  "TotalImportedAmtInr": 67976.0461144767794061700009
+}

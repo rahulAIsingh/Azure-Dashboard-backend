@@ -1,0 +1,18 @@
+[
+  {
+    "RowNumber": 39,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "",
+    "ResourceName": "kavitech",
+    "AmtInr": "13233.355190139855",
+    "Reason": "Resource Group Name or Resource Name is empty."
+  },
+  {
+    "RowNumber": 42,
+    "SubscriptionName": "kavitech-Dev/Test",
+    "ResourceGroup": "",
+    "ResourceName": "kavitech",
+    "AmtInr": "3675.9319972646749",
+    "Reason": "Resource Group Name or Resource Name is empty."
+  }
+]

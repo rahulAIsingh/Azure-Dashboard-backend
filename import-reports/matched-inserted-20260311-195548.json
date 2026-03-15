@@ -1,0 +1,1074 @@
+[
+  {
+    "InsertedRowId": "7d9d308a-9cdf-4336-967d-c039a8075220",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "",
+    "ResourceName": "Arm",
+    "TotalAmtInr": 12.61249028520000040,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender for Resource Manager",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Events",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "e8647cae-aed3-4e2e-9ae6-d173bc3b713d",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "akasascheduler",
+    "TotalAmtInr": 0.000099250164,
+    "LineItemCount": 41,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "bf100513-9c84-42a3-a694-cd99dd5fe264",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "akasawebportal",
+    "TotalAmtInr": 0.03932512053600000150,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "be130975-c981-498c-9e76-2580906bed80",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "akasawebservices",
+    "TotalAmtInr": 0.03976623237600000108,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "805e56f8-4009-43bd-8a66-65788fa39279",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-akasawebportal",
+    "TotalAmtInr": 45.94914999999995764,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "d93e336a-d586-4cb6-94af-8b1d5a8fa58e",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-akasawebservices",
+    "TotalAmtInr": 45.9491499999999494,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "8bf0fb6a-6d0d-429f-b0b6-8f28bcea5ba3",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-loadsheetscheduler",
+    "TotalAmtInr": 45.9491499999999494,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "299398a0-c958-4714-91ab-c13d3b62d052",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-loadsheetwebportal",
+    "TotalAmtInr": 45.94914999999995764,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "c9c7b0f2-6234-4b7a-88cf-fc47e0ca6234",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-loadsheetwebservices",
+    "TotalAmtInr": 45.94914999999995764,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "9a225c07-eb96-4b63-aa68-fc6bb7d74f44",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availabilitytest-akasascheduler",
+    "TotalAmtInr": 45.9491499999999494,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "3391f393-c782-4172-bc11-ebf3670c4500",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "loadsheetscheduler",
+    "TotalAmtInr": 0.00755404026000000047,
+    "LineItemCount": 63,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "3adc551a-fb15-4b2d-945b-2fb2f272494e",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "loadsheetwebportal",
+    "TotalAmtInr": 0.08874067441200000263,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "71e697ed-609c-4a98-bdfc-901f8d0d955a",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "loadsheetwebservices",
+    "TotalAmtInr": 0.738586637100000010,
+    "LineItemCount": 63,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "46f1493d-4e9c-4777-941d-ef6df1edd19a",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "akasaappplan",
+    "TotalAmtInr": 16409.360448000002232,
+    "LineItemCount": 62,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Standard Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "S2 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "f225c75b-24c8-4fad-81d3-1b57eeac7c4c",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "akasafunctionapp",
+    "TotalAmtInr": 1456.7646154635293466325838,
+    "LineItemCount": 547,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Tables",
+      "ServiceName": "Storage",
+      "ResourcePlan": "Read Operations",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "318ce08a-468a-47a7-a28d-bbe74b21d8e3",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "akasasqlserver",
+    "TotalAmtInr": 3434.202711679998801,
+    "LineItemCount": 93,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender for SQL",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "21ea3b0e-35b7-4a46-a71f-b750e15ee139",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "AKASA_RG",
+    "ResourceName": "ENCRYPTIONKEYSTROGE",
+    "TotalAmtInr": 5.761472020200000269,
+    "LineItemCount": 62,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender for Key Vault",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Transactions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "8e58ebf6-d0a2-4b60-a679-07a9db024dd9",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "loadsheetakasa",
+    "TotalAmtInr": 3434.202711679998801,
+    "LineItemCount": 93,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender for SQL",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "5510e76d-e5a0-4f98-8e96-42af1c4a315d",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "defaultresourcegroup-cid",
+    "ResourceName": "defaultworkspace-23ddf3f9-fb90-4770-8442-afd4555d2f7a-cid",
+    "TotalAmtInr": 2450.918845276951870,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "22ba605f-3d93-4060-867f-87d069aeb149",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "defaultresourcegroup-sea",
+    "ResourceName": "defaultworkspace-23ddf3f9-fb90-4770-8442-afd4555d2f7a-sea",
+    "TotalAmtInr": 2377.619231159180536,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Log Analytics",
+      "ServiceName": "Log Analytics",
+      "ResourcePlan": "Analytics Logs Data Ingestion",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "25e6cfdd-515e-402d-ba66-b78fba38b42a",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindia_alerts",
+    "TotalAmtInr": 0.0055138980000000015,
+    "LineItemCount": 1,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Emails",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "1b176d9f-7eae-43b3-98a7-41ceb23565e3",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindia_database_alerts",
+    "TotalAmtInr": 9.189829999999990406,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "f150e941-2e36-4b22-8dbb-4410e1616109",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaappplan",
+    "TotalAmtInr": 23520.083308800002232,
+    "LineItemCount": 62,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Premium v3 Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "P1 v3 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "c94758ef-bc5b-4b81-bada-00cbcacebbc3",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprs_natgatewayip",
+    "TotalAmtInr": 4190.553566934902461,
+    "LineItemCount": 62,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "NAT Gateway",
+      "ServiceName": "NAT Gateway",
+      "ResourcePlan": "Standard Gateway",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "7f459a4f-a5f0-4f0c-b9bb-71386c019976",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprsdcsfapp",
+    "TotalAmtInr": 0.431473546296000018414,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "ce2525f3-25f1-46ff-9086-ee452aeca3ca",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprswebportal",
+    "TotalAmtInr": 1.2908696885760000705,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "6e420386-3769-48fa-8c4e-013e0bbf4b8f",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprswebportalapi",
+    "TotalAmtInr": 0.167126248380000003401,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "b058639f-037d-43b8-b618-6a12b8d9fea7",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprswebservices",
+    "TotalAmtInr": 415.2243756126960171,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "8178f53f-525d-4bf0-a345-9ecf67e5f5b6",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "default",
+    "TotalAmtInr": 341.861676,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "674adc9e-7c48-4685-a7b9-001b84752890",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "sftpairindiauat",
+    "TotalAmtInr": 0.38088904604400000979,
+    "LineItemCount": 64,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "9f5f8dbc-6e55-41f8-b4a8-b4f872b11dc8",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-AirIndia",
+    "ResourceName": "airindiaprsdbserver",
+    "TotalAmtInr": 9744.114596449999328,
+    "LineItemCount": 93,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender for SQL",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "789690d9-06da-4518-af55-7494eb79a87c",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-AirIndia",
+    "ResourceName": "airindiaprsstorage",
+    "TotalAmtInr": 1538.8720832910642424735682,
+    "LineItemCount": 311,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender CSPM",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "9e862524-2a11-4642-ae11-6ab33763095e",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "app-gateway-ip",
+    "TotalAmtInr": 341.861676,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "338f186a-54e9-439c-92c6-e27083fff1eb",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "appgatewaycebu",
+    "TotalAmtInr": 24460.61087947341292180033,
+    "LineItemCount": 157,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Bandwidth Inter-Region",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Inter Continent Data Transfer Out - ASIA To Any",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "b62ac71e-4736-42ad-885c-bca6dadf7048",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "btswebservice",
+    "TotalAmtInr": 0,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "bca88378-576b-4f2c-afbf-b6ed6f80d782",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu",
+    "TotalAmtInr": 15641.798276909999638,
+    "LineItemCount": 125,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Functions",
+      "ServiceName": "Functions",
+      "ResourcePlan": "Standard Total Executions",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "7bb2de57-7472-48e4-97c0-c5bd815a01c8",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_cpu_utilization",
+    "TotalAmtInr": 9.189829999999990406,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "b0b862ec-3e7d-41a5-9c86-89261aafb646",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_cpu_utilization_l2",
+    "TotalAmtInr": 9.189829999999990578,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "f45b5b32-f7dc-47f6-a6b8-1b16e433be8d",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_dtu_utilization",
+    "TotalAmtInr": 9.189829999999990406,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "b5d7f68d-bfea-4dac-bf72-b3593feb45a6",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_dtu_utilizationl2",
+    "TotalAmtInr": 9.189829999999990406,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "cb8a1002-0e16-45c3-b0d7-6b32c1ef77d3",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_db_alters",
+    "TotalAmtInr": 27.56948999999997467,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "c1db3c12-2d2a-43b4-b8bd-c2974b08c778",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_fa_ram",
+    "TotalAmtInr": 9.189829999999990578,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "16f27d13-9efc-4870-821f-0e9b05bc57e4",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_webportal",
+    "TotalAmtInr": 9.189829999999990406,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "3b62b0f0-64b7-45b6-a436-2e52e120429d",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_webportal_ram",
+    "TotalAmtInr": 9.189829999999990406,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "919eafd5-249b-4ca2-b98b-114ac883211f",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebuappplan",
+    "TotalAmtInr": 18.379659999999980903,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "23191785-2008-48d2-9dd2-7688e9ebb6f9",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebuwebapp",
+    "TotalAmtInr": 2666.521072800000217,
+    "LineItemCount": 63,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "2a908fdb-aac5-4738-b744-ec7864647f00",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cpu__ram_alert",
+    "TotalAmtInr": 18.379659999999980903,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "beb259bf-ac25-444e-86f8-9b3c25161e44",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cpu_utilization",
+    "TotalAmtInr": 18.367308077956970963,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "5141af31-3d92-45db-b93c-c50bb92a0e57",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "level_1_monitoring_aby",
+    "TotalAmtInr": 0.1543891440000000305,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Emails",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "westus"
+    }
+  },
+  {
+    "InsertedRowId": "97160c5b-af3e-4699-a5b4-06113704dab1",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "level_2_monitoring",
+    "TotalAmtInr": 9.189829999999990406,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "6f531660-30cb-4fe5-b1c7-8fc91646ef9a",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "prsscheduleapp",
+    "TotalAmtInr": 0,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Functions",
+      "ServiceName": "Functions",
+      "ResourcePlan": "Standard Execution Time",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "071c4227-38df-434a-88ea-33dcd85c2f0e",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "prswebappportal",
+    "TotalAmtInr": 0,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "f4ced916-4033-4be1-8cac-1f11af94c276",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "prswebservices",
+    "TotalAmtInr": 0,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Rtn Preference: MGN",
+      "ServiceName": "Bandwidth",
+      "ResourcePlan": "Standard Data Transfer Out",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "ea0a32b0-04fa-4cfb-9424-fbb5413c9028",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "ssl expiry check-cebuwebapp",
+    "TotalAmtInr": 45.9491499999999502,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Alerts Metric Monitored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "global"
+    }
+  },
+  {
+    "InsertedRowId": "2d25bd7d-43fd-4dfe-a173-36bd46013d0d",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "ASP-RGCebu-9872",
+    "TotalAmtInr": 42390.847823999996962,
+    "LineItemCount": 62,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender for App Service",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "2c447469-12df-44fd-b55f-d24d3b818a79",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "Level_2",
+    "TotalAmtInr": 0.088222368000000018,
+    "LineItemCount": 6,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure Monitor",
+      "ServiceName": "Azure Monitor",
+      "ResourcePlan": "Emails",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "westus2"
+    }
+  },
+  {
+    "InsertedRowId": "892d7b66-6e77-405b-950c-fae107304b4b",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "prscebudbserver",
+    "TotalAmtInr": 8751.291312399999018,
+    "LineItemCount": 93,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender for SQL",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "5915071c-ed39-44d6-ad45-513e4c9259a1",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "sqlva5im5zbcknsyjy",
+    "TotalAmtInr": 1448.151429637212783748984,
+    "LineItemCount": 658,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Files",
+      "ServiceName": "Storage",
+      "ResourcePlan": "LRS Data Stored",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "63cd588e-7eee-4ebd-a16f-212a9c4ea290",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "storageaccountrgceba72f",
+    "TotalAmtInr": 1653.213833205753180480754,
+    "LineItemCount": 439,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender CSPM",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "southeastasia"
+    }
+  },
+  {
+    "InsertedRowId": "e771a632-9e5e-4ee1-9c4f-715396fea4e9",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-kavitech",
+    "ResourceName": "appgateway-kavitech",
+    "TotalAmtInr": 20160.5729765911479470830,
+    "LineItemCount": 157,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Application Gateway Standard v2",
+      "ServiceName": "Application Gateway",
+      "ResourcePlan": "Standard Fixed Cost",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "c856c5f4-86dd-4cdd-a822-267b822af996",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-kavitech",
+    "ResourceName": "kavitech-appgateway-ip",
+    "TotalAmtInr": 341.861676,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "5d4cdd15-2e48-40da-8f75-6afe40b2429c",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-kavitech",
+    "ResourceName": "vpngatewayprodip",
+    "TotalAmtInr": 341.861676,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "c9550df1-0745-47bb-9ad9-c904c57c9b18",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "uatakasascheduler",
+    "TotalAmtInr": 0,
+    "LineItemCount": 32,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Free Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "F1 App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "61b87aef-e23b-4fdb-b6fa-a0f112d8cdbc",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "uatakasawebportal",
+    "TotalAmtInr": 1032.422261520000062,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Shared Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "Shared App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "907cc698-caf6-44f0-b171-ceb94b9caa80",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "uatakasawebservices",
+    "TotalAmtInr": 1032.422261520000062,
+    "LineItemCount": 63,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Azure App Service Shared Plan",
+      "ServiceName": "Azure App Service",
+      "ResourcePlan": "Shared App",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "8afcc17e-3a2d-4bf9-a0f4-6a2e3b4f68b9",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "vistaraldap-ip",
+    "TotalAmtInr": 341.861676,
+    "LineItemCount": 31,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "IP Addresses",
+      "ServiceName": "Virtual Network",
+      "ResourcePlan": "Standard IPv4 Static Public IP",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  },
+  {
+    "InsertedRowId": "dba012fd-a974-45fb-b5a8-49eca299969a",
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-UAT",
+    "ResourceName": "sqlserveruat",
+    "TotalAmtInr": 2381.553634329998770,
+    "LineItemCount": 93,
+    "UsageDate": "2026-01-31",
+    "CopiedMetadata": {
+      "ResourceType": "Microsoft Defender CSPM",
+      "ServiceName": "Microsoft Defender for Cloud",
+      "ResourcePlan": "Standard Node",
+      "MeterCategory": "Manual Pricing Import",
+      "Location": "centralindia"
+    }
+  }
+]

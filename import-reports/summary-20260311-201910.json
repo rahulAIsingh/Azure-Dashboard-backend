@@ -1,0 +1,13 @@
+{
+  "WorkbookPath": "SampleDataSG.xlsx",
+  "SubscriptionName": "Azure subscription 1",
+  "EffectiveUsageDate": "2026-01-31",
+  "Currency": "INR",
+  "TotalExcelRowsRead": 5093,
+  "EligibleChargeRows": 5093,
+  "DistinctAggregatedResources": 67,
+  "MatchedResourcesInserted": 0,
+  "UnmatchedResources": 0,
+  "SkippedRows": 67,
+  "TotalImportedAmtInr": 0
+}

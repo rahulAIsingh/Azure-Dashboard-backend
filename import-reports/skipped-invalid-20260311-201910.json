@@ -1,0 +1,538 @@
+[
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "",
+    "ResourceName": "Arm",
+    "AmtInr": "12.61249028520000040",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "akasascheduler",
+    "AmtInr": "0.000099250164",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "akasawebportal",
+    "AmtInr": "0.03932512053600000150",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "akasawebservices",
+    "AmtInr": "0.03976623237600000108",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-akasawebportal",
+    "AmtInr": "45.94914999999995764",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-akasawebservices",
+    "AmtInr": "45.9491499999999494",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-loadsheetscheduler",
+    "AmtInr": "45.9491499999999494",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-loadsheetwebportal",
+    "AmtInr": "45.94914999999995764",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availability test-loadsheetwebservices",
+    "AmtInr": "45.94914999999995764",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "availabilitytest-akasascheduler",
+    "AmtInr": "45.9491499999999494",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "loadsheetscheduler",
+    "AmtInr": "0.00755404026000000047",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "loadsheetwebportal",
+    "AmtInr": "0.08874067441200000263",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "akasa_rg",
+    "ResourceName": "loadsheetwebservices",
+    "AmtInr": "0.738586637100000010",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "AkasaAppPlan",
+    "AmtInr": "16409.360448000002232",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "akasafunctionapp",
+    "AmtInr": "1456.7646154635293466325838",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "akasasqlserver",
+    "AmtInr": "3434.202711679998801",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "Encryptionkeystroge",
+    "AmtInr": "5.761472020200000269",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "Akasa_RG",
+    "ResourceName": "loadsheetakasa",
+    "AmtInr": "3434.202711679998801",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "defaultresourcegroup-cid",
+    "ResourceName": "defaultworkspace-23ddf3f9-fb90-4770-8442-afd4555d2f7a-cid",
+    "AmtInr": "2450.918845276951870",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "defaultresourcegroup-sea",
+    "ResourceName": "defaultworkspace-23ddf3f9-fb90-4770-8442-afd4555d2f7a-sea",
+    "AmtInr": "2377.619231159180536",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindia_alerts",
+    "AmtInr": "0.0055138980000000015",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindia_database_alerts",
+    "AmtInr": "9.189829999999990406",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaappplan",
+    "AmtInr": "23520.083308800002232",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprs_natgatewayip",
+    "AmtInr": "4190.553566934902461",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprsdcsfapp",
+    "AmtInr": "0.431473546296000018414",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprswebportal",
+    "AmtInr": "1.2908696885760000705",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprswebportalapi",
+    "AmtInr": "0.167126248380000003401",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "airindiaprswebservices",
+    "AmtInr": "415.2243756126960171",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "default",
+    "AmtInr": "341.861676",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-airindia",
+    "ResourceName": "sftpairindiauat",
+    "AmtInr": "0.38088904604400000979",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-AirIndia",
+    "ResourceName": "airindiaprsdbserver",
+    "AmtInr": "9744.114596449999328",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-AirIndia",
+    "ResourceName": "airindiaprsstorage",
+    "AmtInr": "1538.8720832910642424735682",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "app-gateway-ip",
+    "AmtInr": "341.861676",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "appgatewaycebu",
+    "AmtInr": "24460.61087947341292180033",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "btswebservice",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu",
+    "AmtInr": "15641.798276909999638",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_cpu_utilization",
+    "AmtInr": "9.189829999999990406",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_cpu_utilization_l2",
+    "AmtInr": "9.189829999999990578",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_dtu_utilization",
+    "AmtInr": "9.189829999999990406",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_dtu_utilizationl2",
+    "AmtInr": "9.189829999999990406",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_db_alters",
+    "AmtInr": "27.56948999999997467",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_fa_ram",
+    "AmtInr": "9.189829999999990578",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_webportal",
+    "AmtInr": "9.189829999999990406",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebu_prs_webportal_ram",
+    "AmtInr": "9.189829999999990406",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebuappplan",
+    "AmtInr": "18.379659999999980903",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cebuwebapp",
+    "AmtInr": "2666.521072800000217",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cpu__ram_alert",
+    "AmtInr": "18.379659999999980903",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "cpu_utilization",
+    "AmtInr": "18.367308077956970963",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "level_1_monitoring_aby",
+    "AmtInr": "0.1543891440000000305",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "level_2_monitoring",
+    "AmtInr": "9.189829999999990406",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "prsscheduleapp",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "prswebappportal",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "prswebservices",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-cebu",
+    "ResourceName": "ssl expiry check-cebuwebapp",
+    "AmtInr": "45.9491499999999502",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "ASP-RGCebu-9872",
+    "AmtInr": "42390.847823999996962",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "Level_2",
+    "AmtInr": "0.088222368000000018",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "prscebudbserver",
+    "AmtInr": "8751.291312399999018",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "sqlva5im5zbcknsyjy",
+    "AmtInr": "1448.151429637212783748984",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-Cebu",
+    "ResourceName": "storageaccountrgceba72f",
+    "AmtInr": "1653.213833205753180480754",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-kavitech",
+    "ResourceName": "appgateway-kavitech",
+    "AmtInr": "20160.5729765911479470830",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-kavitech",
+    "ResourceName": "kavitech-appgateway-ip",
+    "AmtInr": "341.861676",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-kavitech",
+    "ResourceName": "vpngatewayprodip",
+    "AmtInr": "341.861676",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "uatakasascheduler",
+    "AmtInr": "0",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "uatakasawebportal",
+    "AmtInr": "1032.422261520000062",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "uatakasawebservices",
+    "AmtInr": "1032.422261520000062",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "rg-uat",
+    "ResourceName": "vistaraldap-ip",
+    "AmtInr": "341.861676",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  },
+  {
+    "RowNumber": null,
+    "SubscriptionName": "Azure subscription 1",
+    "ResourceGroup": "RG-UAT",
+    "ResourceName": "sqlserveruat",
+    "AmtInr": "2381.553634329998770",
+    "Reason": "A synthetic manual pricing row already exists for this resource and month."
+  }
+]

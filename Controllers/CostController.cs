@@ -117,11 +117,11 @@ namespace AzureFinOps.API.Controllers
         }
 
         [HttpGet("lookups")]
-        public async Task<IActionResult> GetLookups([FromQuery] string? subscription)
+        public async Task<IActionResult> GetLookups([FromQuery] string? subscription, [FromQuery] DateTime? startDate, [FromQuery] DateTime? endDate)
         {
             try {
                 var (userId, role) = GetUserClaims();
-                var data = await _costService.GetLookupsAsync(subscription, userId, role);
+                var data = await _costService.GetLookupsAsync(subscription, startDate, endDate, userId, role);
                 return Ok(data);
             } catch (UnauthorizedAccessException) {
                 return Unauthorized();

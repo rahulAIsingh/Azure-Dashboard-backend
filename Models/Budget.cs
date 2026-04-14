@@ -18,6 +18,13 @@ namespace AzureFinOps.API.Models
         [Column(TypeName = "decimal(18, 4)")]
         public decimal MonthlyBudget { get; set; }
 
+        [Required]
+        [MaxLength(255)]
+        public string Name { get; set; } = string.Empty;
+
+        [Required]
+        public int AlertAt { get; set; } = 80;
+
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
     }
 }

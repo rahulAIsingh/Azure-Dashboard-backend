@@ -54,7 +54,7 @@ namespace AzureFinOps.API.Controllers
                 return CreatedAtAction(nameof(GetBudgets), new { id = createdBudget.Id }, createdBudget);
             } 
             catch (UnauthorizedAccessException ex) {
-                return Forbid(ex.Message);
+                return StatusCode(403, new { message = ex.Message });
             }
         }
 

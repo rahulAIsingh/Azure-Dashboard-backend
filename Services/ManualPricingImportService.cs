@@ -140,28 +140,53 @@ namespace AzureFinOps.API.Services
                 foreach (var aggregated in aggregatedRows.Values.OrderBy(r => r.SubscriptionName).ThenBy(r => r.ResourceGroup).ThenBy(r => r.ResourceName))
                 {
                     cancellationToken.ThrowIfCancellationRequested();
+                    
+                    var rowUsageDate = aggregated.UsageDate ?? effectiveUsageDate;
 
-                    if (!resourceIndex.TryGetValue(aggregated.Key, out var canonical))
+                    if (!resourceIndex.TryGetValue(aggregated.ResourceIndexKey, out var canonical))
                     {
-                        unmatchedRows.Add(new UnmatchedPricingRowReport
+                        // No existing resource found — insert directly from Excel data
+                        var directUsage = new AzureCostUsage
                         {
+                            Id = Guid.NewGuid(),
+                            UsageDate = rowUsageDate,
                             SubscriptionName = aggregated.SubscriptionName,
-                            ResourceGroup = aggregated.ResourceGroup,
+                            ResourceGroup = string.IsNullOrWhiteSpace(aggregated.ResourceGroup) ? EmptyResourceGroupMarker : aggregated.ResourceGroup,
                             ResourceName = aggregated.ResourceName,
+                            ResourceType = string.Empty,
+                            ServiceName = aggregated.ProductNames.FirstOrDefault() ?? string.Empty,
+                            ResourcePlan = aggregated.MeterNames.FirstOrDefault() ?? string.Empty,
+                            MeterCategory = ManualImportMarker,
+                            Location = aggregated.Locations.FirstOrDefault() ?? string.Empty,
+                            Cost = aggregated.TotalAmtInr,
+                            Currency = config.Currency
+                        };
+
+                        _context.AzureCostUsage.Add(directUsage);
+
+                        insertedRows.Add(new InsertedPricingRowReport
+                        {
+                            InsertedRowId = directUsage.Id,
+                            SubscriptionName = directUsage.SubscriptionName,
+                            ResourceGroup = directUsage.ResourceGroup,
+                            ResourceName = directUsage.ResourceName ?? string.Empty,
                             TotalAmtInr = aggregated.TotalAmtInr,
                             LineItemCount = aggregated.LineItemCount,
-                            Locations = aggregated.Locations.OrderBy(v => v).ToArray(),
-                            ProductNames = aggregated.ProductNames.OrderBy(v => v).ToArray(),
-                            MeterNames = aggregated.MeterNames.OrderBy(v => v).ToArray(),
-                            UsageStartDate = aggregated.MinUsageStartDate?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture),
-                            UsageEndDate = aggregated.MaxUsageEndDate?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture),
-                            Reason = "No existing AzureCostUsage resource matched the normalized subscription/resource group/resource name key."
+                            UsageDate = directUsage.UsageDate.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture),
+                            CopiedMetadata = new CanonicalMetadataReport
+                            {
+                                ResourceType = directUsage.ResourceType,
+                                ServiceName = directUsage.ServiceName,
+                                ResourcePlan = directUsage.ResourcePlan,
+                                MeterCategory = directUsage.MeterCategory,
+                                Location = directUsage.Location
+                            }
                         });
                         continue;
                     }
 
                     var duplicateExists = await _context.AzureCostUsage.AnyAsync(
-                        row => row.UsageDate == effectiveUsageDate
+                        row => row.UsageDate == rowUsageDate
                             && row.Currency == config.Currency
                             && row.SubscriptionName == canonical.SubscriptionName
                             && row.ResourceGroup == canonical.ResourceGroup
@@ -178,7 +203,7 @@ namespace AzureFinOps.API.Services
                             ResourceGroup = aggregated.ResourceGroup,
                             ResourceName = aggregated.ResourceName,
                             AmtInr = aggregated.TotalAmtInr.ToString(CultureInfo.InvariantCulture),
-                            Reason = "A synthetic manual pricing row already exists for this resource and month."
+                            Reason = $"A synthetic manual pricing row already exists for this resource on date {rowUsageDate:yyyy-MM-dd}."
                         });
                         continue;
                     }
@@ -186,7 +211,7 @@ namespace AzureFinOps.API.Services
                     var usage = new AzureCostUsage
                     {
                         Id = Guid.NewGuid(),
-                        UsageDate = effectiveUsageDate,
+                        UsageDate = rowUsageDate,
                         SubscriptionName = canonical.SubscriptionName,
                         ResourceGroup = canonical.ResourceGroup,
                         ResourceName = canonical.ResourceName,
@@ -262,7 +287,15 @@ namespace AzureFinOps.API.Services
                 return true;
             }
 
-            if (!DateTime.TryParse(config.EffectiveUsageDate, CultureInfo.InvariantCulture, DateTimeStyles.AssumeLocal, out var parsed))
+            // Try multiple formats: ISO (yyyy-MM-dd), US (MM/dd/yyyy), and generic
+            var formats = new[] { "yyyy-MM-dd", "MM/dd/yyyy", "M/d/yyyy", "dd-MM-yyyy", "dd/MM/yyyy" };
+            if (DateTime.TryParseExact(config.EffectiveUsageDate, formats, CultureInfo.InvariantCulture, DateTimeStyles.AssumeLocal, out var parsedExact))
+            {
+                effectiveUsageDate = parsedExact.Date;
+                return true;
+            }
+
+            if (!DateTime.TryParse(config.EffectiveUsageDate, CultureInfo.CurrentCulture, DateTimeStyles.AssumeLocal, out var parsed))
             {
                 return false;
             }
@@ -312,16 +345,18 @@ namespace AzureFinOps.API.Services
 
             foreach (var row in rows)
             {
-                if (!map.TryGetValue(row.Key, out var aggregate))
+                if (!map.TryGetValue(row.AggregateKey, out var aggregate))
                 {
                     aggregate = new AggregatedPricingRow
                     {
-                        Key = row.Key,
+                        AggregateKey = row.AggregateKey,
+                        ResourceIndexKey = row.ResourceIndexKey,
                         SubscriptionName = row.SubscriptionName,
                         ResourceGroup = row.ResourceGroup,
-                        ResourceName = row.ResourceName
+                        ResourceName = row.ResourceName,
+                        UsageDate = row.UsageStartDate
                     };
-                    map[row.Key] = aggregate;
+                    map[row.AggregateKey] = aggregate;
                 }
 
                 aggregate.TotalAmtInr += row.AmtInr;
@@ -395,14 +430,14 @@ namespace AzureFinOps.API.Services
             var benefitType = rawRow.Get("BenefitType");
             var amtInrRaw = rawRow.Get("Amt INR");
 
-            if (!string.Equals(subscription, config.SubscriptionName, StringComparison.OrdinalIgnoreCase))
+            // If the excel has a subscription name but it doesn't match, override with the configured name
+            if (!string.IsNullOrWhiteSpace(config.SubscriptionName))
             {
-                return null;
+                subscription = config.SubscriptionName;
             }
-
-            if (!string.Equals(benefitType, config.OnlyBenefitType, StringComparison.OrdinalIgnoreCase))
+            else if (string.IsNullOrWhiteSpace(subscription))
             {
-                return null;
+                subscription = "Unknown Subscription";
             }
 
             var overrideMatch = ResolveOverride(config, subscription, resourceGroup, resourceName);
@@ -468,9 +503,11 @@ namespace AzureFinOps.API.Services
             var resourceName = rawRow.Get("resourceName");
             var amtInrRaw = rawRow.Get("INR Amount");
 
-            if (!string.Equals(subscription, config.SubscriptionName, StringComparison.OrdinalIgnoreCase))
+            // If the excel has a subscription name but it doesn't match, override with the configured name
+            // This allows importing any SG-format workbook regardless of the exact subscription name in the file
+            if (!string.IsNullOrWhiteSpace(config.SubscriptionName))
             {
-                return null;
+                subscription = config.SubscriptionName;
             }
 
             var overrideMatch = ResolveOverride(config, subscription, resourceGroup, resourceName);
@@ -753,6 +790,15 @@ namespace AzureFinOps.API.Services
                 resourceName.Trim().ToLowerInvariant());
         }
 
+        private static string NormalizeAggregateKey(string? subscriptionName, string? resourceGroup, string? resourceName, DateTime? usageDate)
+        {
+            var key = NormalizeKey(subscriptionName, resourceGroup, resourceName);
+            if (string.IsNullOrEmpty(key)) return string.Empty;
+            
+            var dateSegment = usageDate?.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) ?? "no-date";
+            return $"{key}|{dateSegment}";
+        }
+
         private sealed class RawExcelRow
         {
             public int? RowNumber { get; init; }
@@ -774,15 +820,18 @@ namespace AzureFinOps.API.Services
             public DateTime? UsageEndDate { get; init; }
             public decimal AmtInr { get; init; }
             public string? ManualOverrideName { get; init; }
-            public string Key => NormalizeKey(SubscriptionName, ResourceGroup, ResourceName);
+            public string AggregateKey => NormalizeAggregateKey(SubscriptionName, ResourceGroup, ResourceName, UsageStartDate);
+            public string ResourceIndexKey => NormalizeKey(SubscriptionName, ResourceGroup, ResourceName);
         }
 
         private sealed class AggregatedPricingRow
         {
-            public string Key { get; init; } = string.Empty;
+            public string AggregateKey { get; init; } = string.Empty;
+            public string ResourceIndexKey { get; init; } = string.Empty;
             public string SubscriptionName { get; init; } = string.Empty;
             public string ResourceGroup { get; init; } = string.Empty;
             public string ResourceName { get; init; } = string.Empty;
+            public DateTime? UsageDate { get; set; }
             public decimal TotalAmtInr { get; set; }
             public int LineItemCount { get; set; }
             public HashSet<string> Locations { get; } = new(StringComparer.OrdinalIgnoreCase);

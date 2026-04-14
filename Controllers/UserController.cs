@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace AzureFinOps.API.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Super Admin,Admin")]
     [Route("api/users")]
     [ApiController]
     public class UserController : ControllerBase

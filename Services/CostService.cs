@@ -18,7 +18,7 @@ namespace AzureFinOps.API.Services
         Task<object> GetResourceGroupDetailAsync(string resourceGroup, Guid userId, string role);
         Task<IEnumerable<object>> GetFilteredRecordsAsync(DateTime? startDate, DateTime? endDate, string? resourceGroup, string? service, string? subscription, string? location, Guid userId, string role);
         Task<IEnumerable<TopResourceDto>> GetTopResourcesAsync(int limit, string? subscription, string? resourceGroup, string? service, string? location, DateTime? startDate, DateTime? endDate, Guid userId, string role);
-        Task<LookupDataDto> GetLookupsAsync(string? subscription, Guid userId, string role);
+        Task<LookupDataDto> GetLookupsAsync(string? subscription, DateTime? startDate, DateTime? endDate, Guid userId, string role);
     }
 
     public class CostService : ICostService
@@ -169,16 +169,30 @@ namespace AzureFinOps.API.Services
                 .Take(limit)
                 .ToListAsync();
         }
-        public async Task<LookupDataDto> GetLookupsAsync(string? subscription, Guid userId, string role)
+
+        public async Task<LookupDataDto> GetLookupsAsync(string? subscription, DateTime? startDate, DateTime? endDate, Guid userId, string role)
         {
-            var query = await _scopeService.ApplyScopeFilterAsync(_context.AzureCostUsage.AsQueryable(), userId, role);
+            var baseQuery = await _scopeService.ApplyScopeFilterAsync(_context.AzureCostUsage.AsQueryable(), userId, role);
+            
+            var subscriptions = await baseQuery.Where(c => c.SubscriptionName != null && c.SubscriptionName != "").Select(c => c.SubscriptionName).Distinct().ToListAsync();
+
+            var query = baseQuery;
 
             if (!string.IsNullOrEmpty(subscription) && subscription != "All")
             {
                 query = query.Where(c => c.SubscriptionName != null && c.SubscriptionName.ToLower() == subscription.ToLower());
             }
+
+            if (startDate.HasValue)
+            {
+                query = query.Where(c => c.UsageDate >= startDate.Value);
+            }
+
+            if (endDate.HasValue)
+            {
+                query = query.Where(c => c.UsageDate <= endDate.Value);
+            }
             
-            var subscriptions = await query.Where(c => c.SubscriptionName != null && c.SubscriptionName != "").Select(c => c.SubscriptionName).Distinct().ToListAsync();
             var resourceGroups = await query.Where(c => c.ResourceGroup != null && c.ResourceGroup != "").Select(c => c.ResourceGroup).Distinct().ToListAsync();
             var services = await query.Where(c => c.ServiceName != null && c.ServiceName != "").Select(c => c.ServiceName!).Distinct().ToListAsync();
             var locations = await query.Where(c => c.Location != null && c.Location != "").Select(c => c.Location!).Distinct().ToListAsync();

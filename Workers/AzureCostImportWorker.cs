@@ -83,11 +83,11 @@ namespace AzureFinOps.API.Workers
                     continue;
                 }
 
-                await ProcessContainerAsync(connectionString, containerName, stoppingToken);
+                await ProcessContainerAsync(connectionString, containerName, exportConfig.SubscriptionNameOverride, stoppingToken);
             }
         }
 
-        private async Task ProcessContainerAsync(string connectionString, string containerName, CancellationToken stoppingToken)
+        private async Task ProcessContainerAsync(string connectionString, string containerName, string? subscriptionNameOverride, CancellationToken stoppingToken)
         {
             _logger.LogInformation("Processing Azure Cost Export for container: {Container}", containerName);
 
@@ -144,7 +144,9 @@ namespace AzureFinOps.API.Workers
                         {
                             Id = Guid.NewGuid(),
                             UsageDate = record.UsageDate,
-                            SubscriptionName = record.SubscriptionName,
+                            SubscriptionName = !string.IsNullOrWhiteSpace(subscriptionNameOverride)
+                                ? subscriptionNameOverride
+                                : record.SubscriptionName,
                             ResourceGroup = record.ResourceGroup,
                             // ResourceName: actual Azure resource name (last segment of ResourceId, or ProductName fallback)
                             ResourceName = !string.IsNullOrWhiteSpace(record.ActualResourceName)
@@ -245,6 +247,7 @@ namespace AzureFinOps.API.Workers
         {
             public string? StorageConnectionString { get; set; }
             public string? ContainerName { get; set; }
+            public string? SubscriptionNameOverride { get; set; }
         }
     }
 }

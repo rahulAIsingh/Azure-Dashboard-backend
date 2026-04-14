@@ -40,7 +40,7 @@ namespace AzureFinOps.API.Services
 
         public async Task<IQueryable<AzureCostUsage>> ApplyScopeFilterAsync(IQueryable<AzureCostUsage> query, Guid userId, string role)
         {
-            if (role == "Admin") return query;
+            if (role == "Admin" || role == "Super Admin") return query;
 
             var scopes = await _context.UserScopes.Where(us => us.UserId == userId).ToListAsync();
             var subScopes = scopes.Where(s => s.ScopeType == "Subscription").Select(s => s.ScopeValue).ToList();
@@ -54,7 +54,7 @@ namespace AzureFinOps.API.Services
 
         public async Task<IQueryable<Budget>> ApplyScopeFilterAsync(IQueryable<Budget> query, Guid userId, string role)
         {
-            if (role == "Admin") return query;
+            if (role == "Admin" || role == "Super Admin") return query;
 
             var scopes = await _context.UserScopes.Where(us => us.UserId == userId).ToListAsync();
             var rgScopes = scopes.Where(s => s.ScopeType == "ResourceGroup").Select(s => s.ScopeValue).ToList();
@@ -64,7 +64,7 @@ namespace AzureFinOps.API.Services
 
         public async Task<IQueryable<ResourceGroup>> ApplyScopeFilterAsync(IQueryable<ResourceGroup> query, Guid userId, string role)
         {
-            if (role == "Admin") return query;
+            if (role == "Admin" || role == "Super Admin") return query;
 
             var scopes = await _context.UserScopes.Where(us => us.UserId == userId).ToListAsync();
             var subIds = scopes.Where(s => s.ScopeType == "Subscription").Select(s => s.ScopeValue).ToList();
@@ -78,7 +78,7 @@ namespace AzureFinOps.API.Services
         
         public async Task<IQueryable<Subscription>> ApplyScopeFilterAsync(IQueryable<Subscription> query, Guid userId, string role)
         {
-            if (role == "Admin") return query;
+            if (role == "Admin" || role == "Super Admin") return query;
 
             var scopes = await _context.UserScopes.Where(us => us.UserId == userId).ToListAsync();
             var subIds = scopes.Where(s => s.ScopeType == "Subscription").Select(s => s.ScopeValue).ToList();

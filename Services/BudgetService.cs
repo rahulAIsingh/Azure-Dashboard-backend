@@ -39,7 +39,7 @@ namespace AzureFinOps.API.Services
             var rgQuery = await _scopeService.ApplyScopeFilterAsync(_context.ResourceGroups.AsQueryable(), userId, role);
             var hasAccess = await rgQuery.AnyAsync(rg => rg.ResourceGroupName == budget.ResourceGroup);
             
-            if (!hasAccess && role != "Admin") 
+            if (!hasAccess && role != "Admin" && role != "Super Admin") 
             {
                 throw new UnauthorizedAccessException("You do not have permission to create a budget for this resource group.");
             }

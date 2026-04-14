@@ -16,7 +16,7 @@ builder.WebHost.UseUrls(serverUrl);
 builder.Services.AddControllers();
 
 // Register Hosted Services (Background Workers)
-// builder.Services.AddHostedService<AzureCostImportWorker>();
+builder.Services.AddHostedService<AzureCostImportWorker>();
 
 // Configure CORS
 builder.Services.AddCors(options =>
@@ -108,7 +108,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Azure FinOps API v1"));
 }
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseCors("AllowAll");
 

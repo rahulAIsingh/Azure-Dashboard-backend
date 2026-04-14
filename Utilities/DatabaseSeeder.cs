@@ -16,6 +16,7 @@ namespace AzureFinOps.API.Utilities
             {
                 context.Roles.AddRange(new List<Role>
                 {
+                    new Role { Name = "Super Admin" },
                     new Role { Name = "Admin" },
                     new Role { Name = "Editor" },
                     new Role { Name = "Viewer" }

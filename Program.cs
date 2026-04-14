@@ -62,42 +62,66 @@ builder.Services.AddSwaggerSetup();
 var app = builder.Build();
 
 // Seed data
-using (var scope = app.Services.CreateScope())
+try
 {
-    var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<ApplicationDbContext>();
-    await DatabaseSeeder.SeedAsync(context);
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+        var context = services.GetRequiredService<ApplicationDbContext>();
+        await DatabaseSeeder.SeedAsync(context);
+    }
+}
+catch (Exception ex)
+{
+    var logger = app.Services.GetRequiredService<ILogger<Program>>();
+    logger.LogError(ex, "An error occurred while seeding the database.");
 }
 
 var clearImportedCostDataOnce = app.Configuration.GetValue<bool>("StartupDataMaintenance:ClearImportedCostDataOnce");
 if (clearImportedCostDataOnce)
 {
-    using var scope = app.Services.CreateScope();
-    var services = scope.ServiceProvider;
-    var logger = services.GetRequiredService<ILoggerFactory>().CreateLogger("StartupDataMaintenance");
-    var dbContext = services.GetRequiredService<ApplicationDbContext>();
+    try
+    {
+        using var scope = app.Services.CreateScope();
+        var services = scope.ServiceProvider;
+        var logger = services.GetRequiredService<ILoggerFactory>().CreateLogger("StartupDataMaintenance");
+        var dbContext = services.GetRequiredService<ApplicationDbContext>();
 
-    logger.LogWarning("StartupDataMaintenance:ClearImportedCostDataOnce is enabled. Clearing imported Azure cost data before serving requests.");
-    await DatabaseSeeder.ClearAllDataAsync(dbContext);
-    logger.LogWarning("Imported Azure cost data cleared. Disable StartupDataMaintenance:ClearImportedCostDataOnce after verifying the next import cycle.");
+        logger.LogWarning("StartupDataMaintenance:ClearImportedCostDataOnce is enabled. Clearing imported Azure cost data before serving requests.");
+        await DatabaseSeeder.ClearAllDataAsync(dbContext);
+        logger.LogWarning("Imported Azure cost data cleared. Disable StartupDataMaintenance:ClearImportedCostDataOnce after verifying the next import cycle.");
+    }
+    catch (Exception ex)
+    {
+        var logger = app.Services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred during StartupDataMaintenance.");
+    }
 }
 
 var manualPricingImportEnabled = app.Configuration.GetValue<bool>("ManualPricingImport:Enabled");
 if (manualPricingImportEnabled)
 {
-    using var scope = app.Services.CreateScope();
-    var services = scope.ServiceProvider;
-    var logger = services.GetRequiredService<ILoggerFactory>().CreateLogger("ManualPricingImport");
-    var importService = services.GetRequiredService<IManualPricingImportService>();
+    try
+    {
+        using var scope = app.Services.CreateScope();
+        var services = scope.ServiceProvider;
+        var logger = services.GetRequiredService<ILoggerFactory>().CreateLogger("ManualPricingImport");
+        var importService = services.GetRequiredService<IManualPricingImportService>();
 
-    logger.LogWarning("ManualPricingImport:Enabled is true. Starting one-time pricing backfill import.");
-    var summary = await importService.ImportAsync();
-    logger.LogWarning(
-        "Manual pricing backfill completed. Inserted={Inserted}, Unmatched={Unmatched}, Skipped={Skipped}, TotalImportedAmtInr={TotalImportedAmtInr}. Disable ManualPricingImport:Enabled after verification.",
-        summary.MatchedResourcesInserted,
-        summary.UnmatchedResources,
-        summary.SkippedRows,
-        summary.TotalImportedAmtInr);
+        logger.LogWarning("ManualPricingImport:Enabled is true. Starting one-time pricing backfill import.");
+        var summary = await importService.ImportAsync();
+        logger.LogWarning(
+            "Manual pricing backfill completed. Inserted={Inserted}, Unmatched={Unmatched}, Skipped={Skipped}, TotalImportedAmtInr={TotalImportedAmtInr}. Disable ManualPricingImport:Enabled after verification.",
+            summary.MatchedResourcesInserted,
+            summary.UnmatchedResources,
+            summary.SkippedRows,
+            summary.TotalImportedAmtInr);
+    }
+    catch (Exception ex)
+    {
+        var logger = app.Services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred during ManualPricingImport.");
+    }
 }
 
 
